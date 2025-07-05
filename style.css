@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: hsl(0, 0%, 8%);
+  --card-color: hsl(0, 0%, 12%);
+  --button-color: hsl(0, 0%, 20%);
+  --text-color: hsl(0, 0%, 100%);
+  --highlight-color: hsl(75, 94%, 57%);
+
+  --font-family: 'Inter', sans-serif;
+  
+  --spacing-500: 2.5rem; /* 40px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-200: 1rem; /* 16px */
+  --sparing-150: 0.75rem; /* 12px */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-50: 0.25rem; /* 4px */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: clamp(1.25rem, 2vw + 1rem, 1.5rem);
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+p {
+  font-size: clamp(0.75rem, 1.5vw + 0.5rem, 0.875rem);
+  line-height: 150%;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.p-bold {
+  font-weight: 600;
+}
+
+a {
+  background-color: var(--button-color);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: var(--spacing-150);
+}
+
+a:hover {
+  background-color: var(--highlight-color);
+  color: var(--button-color);
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+/*Attributes*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
