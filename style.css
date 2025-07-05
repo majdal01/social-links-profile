@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  font-size: clamp(1.25rem, 2vw + 1rem, 1.5rem);
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0;
@@ -41,7 +41,7 @@ h1 {
 }
 
 p {
-  font-size: clamp(0.75rem, 1.5vw + 0.5rem, 0.875rem);
+  font-size: 0.875rem;
   line-height: 150%;
   letter-spacing: 0;
   font-weight: 400;
@@ -66,12 +66,13 @@ ul {
 nav ul li a {
   color: var(--text-color);
   text-decoration: none;  
+  font-size: 0.875rem;
   font-weight: 600;
   background-color: var(--button-color);
   padding: var(--spacing-150);
   border-radius: var(--spacing-100);
   display: block;
-  width: 100%;
+  width: 100%
 }
 
 nav ul li a:hover {
@@ -90,6 +91,7 @@ nav ul li a:hover {
   align-items: center;
   gap: var(--spacing-300);
   border-radius: var(--spacing-150);
+  margin: auto var(--spacing-300);
 }
 
 .profile-image {
