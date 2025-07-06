@@ -72,7 +72,7 @@ nav ul li a {
   padding: var(--spacing-150);
   border-radius: var(--spacing-100);
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 nav ul li a:hover {
@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 .profile-card {
-  max-width: 24rem; /* 384px */
+  max-width: clamp(20.438rem, 24rem, 24rem);
   background-color: var(--card-color);
   text-align: center;
   padding: clamp(var(--spacing-300), var(--spacing-300), var(--spacing-500));
@@ -100,5 +100,11 @@ nav ul li a:hover {
 }
 
 /*Attributes*/
-.attribution { font-size: 11px; text-align: center; margin-top: var(--spacing-300); }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+ font-size: 11px; 
+ text-align: center; 
+ margin-top: var(--spacing-300); 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
