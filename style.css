@@ -53,7 +53,7 @@ p {
 }
 
 nav {
-  width: 110%;
+  width: 100%;
 }
 
 ul {
@@ -72,7 +72,6 @@ nav ul li a {
   padding: var(--spacing-150);
   border-radius: var(--spacing-100);
   display: block;
-  width: 100%;
 }
 
 nav ul li a:hover {
@@ -82,7 +81,6 @@ nav ul li a:hover {
 }
 
 .profile-card {
-  max-width: clamp(20.438rem, 24rem, 24rem);
   background-color: var(--card-color);
   text-align: center;
   padding: clamp(var(--spacing-300), var(--spacing-300), var(--spacing-500));
